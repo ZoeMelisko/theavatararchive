@@ -1,4 +1,5 @@
 import Title from "../../components/Title.tsx";
+import { Link } from "react-router";
 
 
 function Home() {
@@ -14,8 +15,8 @@ function Home() {
                     <div className="flex-1/3">
                         <p className="mb-3 text-lg uppercase font-semibold">Explore</p>
                         <ul>
-                            <li className="mb-2 text-base"><a href="/ClassAvatars">Fall 2025 : 70914</a></li>
-                            <li className="mb-2 text-base"><a href="/">Fall 2025 : 72001</a></li>
+                            <li className="mb-2 text-base"><Link to="/ClassAvatars">Fall 2025 : 70914</Link></li>
+                            <li className="mb-2 text-base"><Link to="/ClassAvatars">Fall 2025 : 72001</Link></li>
                         </ul>
                     </div>
                 </div>
